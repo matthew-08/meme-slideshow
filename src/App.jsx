@@ -34,7 +34,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <h1>Meme Slideshow</h1>
+        <h1>Meme</h1>
         <div className="img-container">
           <img src={this.state.url} alt="" srcset="" />
         </div>
