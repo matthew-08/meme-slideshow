@@ -34,13 +34,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <h1>Meme</h1>
-        <div className="img-container">
-          <img src={this.state.url} alt="" srcset="" />
-        </div>
-        <h3>Set Interval</h3>
-        <input type="range" min="1" max="10" onChange={this.handleSetInterval} />
-        <p>{this.state.interval}</p>
+       
       </div>
     )
   }
