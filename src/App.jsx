@@ -8,7 +8,7 @@ class App extends Component {
   constructor(props) {
     super(props)
 
-    this.state = { url: "/", memesArray: [], interval: 5 }
+    
   }
 
   componentDidMount() {
